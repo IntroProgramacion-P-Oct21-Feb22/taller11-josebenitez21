@@ -19,9 +19,9 @@ public class Ejemplo1 {
         int[] informacion = {10, 20, 30, 40, 50, 100};
         
         // int suma = obtenerSumaDatos(10);
-        int suma = obtenerSumaDatos(informacion);
+        int sum = obtenerSumaDatos(informacion);
         double promedio = obtenerPromedioDatos(informacion);
-        System.out.printf("La suma es %d\n", suma);
+        System.out.printf("La suma es %d\n", sum);
         System.out.printf("El promedio es %.2f\n", promedio);
     }
     
